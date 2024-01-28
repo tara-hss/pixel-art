@@ -1,0 +1,30 @@
+body {
+    background-size: cover;
+    position: relative;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.brush-box {
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+}
+button {
+    margin-top: 5px;
+}
+.pixel {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(223, 221, 221);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+.pixel:hover {
+    background: green;
+    cursor: pointer;
+}
